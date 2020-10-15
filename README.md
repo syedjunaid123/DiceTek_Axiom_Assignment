@@ -14,9 +14,13 @@ Some of the basic testing enhancement were implemented, to make this more better
 
 - **Tests:** A test class is added to run the test cases, TestNG annotations are used to trigger and end the test case.
 
+- **pom.XML:** Maven is used as a project building tool, and all the project dependencies are added here.
+
 - **ExtentReport:** As part of Reporting, Extent Report has been introduced in the framework. After every Script run, the report will be generated based on timestamp and itts accessibled under **"test/resources"** folder.
 
 - **Log4J:** To get the exact flow in console while the script is executed, a logging tool as also been implemented.
+
+
 
 
 ## Pre-requisites to be installed before proceeding:
